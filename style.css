@@ -1,0 +1,42 @@
+<heard>
+  <meta charset="UTF-8"
+  <meta name="viewport" ::content="width=device-width,initial-scale=1.0>
+  <title> Universo da Prosperidade<title>
+  <link rel=" stylesheet" href= "style.css">
+</header>
+<body>
+
+/*Estilos básicos*/
+body{
+    font-family: var(--body-font);
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+      background-color: var(--primary-color);
+      {h1 color:verdana ;
+	  }
+      padding: var(--padding);
+      text-align: center;
+      display:flex;
+      justify-content: space-between;
+      align-items: center; 
+
+}
+.logo h1{
+     display: inline-block;
+     font-size: 1.5rem;  
+}
+
+nav-bar{
+    position: relative;
+}
+ 
+nav-menu{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
